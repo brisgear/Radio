@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    font-size: 14px;
+}
+h1 {
+    color: #EEEEFF;
+    float: right;
+    font-size: 24px;
+    margin-right: 65px;
+    margin-top: 28px;
+    text-align: right;
+}
+body {
+    /*background: url(../images/bg.jpg);*/
+}
+/*.all2 {
+        background: url(../images/bg_all2.png);
+}
+.all3 { 
+        background: url(../images/bg_all3.png);
+}*/
+.clear {
+    clear: both;
+    display: block;
+}
+.selected {
+    background-color:#F2F5AC  !important;
+}
+#wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    width: 998px;
+}
+#footer {
+    background-color: #E0E0E0;
+    border-top: 1px solid #FFFFFF;
+    margin-top: 10px;
+    min-height: 50px;
+    width: 100%;
+}
+#resalt_table {
+    background-color: #E7E7F9;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #CCCCDD;
+    border-spacing: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#resalt_table td {
+    border-bottom: 1px solid #C0C0D0;
+    border-top: 1px solid #FFF;
+    padding: 3px;	
+}
+#resalt_table th, .title_table {
+    background-color: #3040C0;
+    background: url(../images/bg_th_resalt.png) repeat-x 0px 0px;
+    border-bottom: 1px solid #000088;
+    color: #DDDDFF;
+    font-weight: normal;
+    margin-bottom: 1px;
+    padding: 3px 4px;
+    text-align: center;
+    height: 29px;
+}
+#resalt_table th{
+    font-size: 12px;
+    line-height: 14px;
+}
+.title_table {
+    border-bottom: none;
+    height: 27px;
+    padding-bottom: 0;
+    padding-top: 8px;
+}
+.form_table {
+    width: 100%;
+}
+.form_table {
+    background-color: #DDDDEE;
+    border-spacing: 3px 20px;
+}
+.form_table label {
+    color: #666666;
+    padding: 0 20px 0 5px;
+}
+.max_width {
+    color: #666666;
+    height: 22px;
+    width: 200px;
+}
+.form_table td {
+    padding-right: 2px;
+    border-spacing: 0 20px;
+}
+
+.first_td_form {
+    color: #666666;
+    padding: 3px;
+    text-align: right;
+    width: 470px;
+}
+.command_edit{
+    background: url(../images/bg_th_link.png) repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 22px;
+    margin: 0;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
+    border: none;
+    font-size: 12px;
+}
+#header {
+    background-color: #5566DD;
+    height: 108px;
+    background: url(../images/bg_top.png) no-repeat top center;
+}
+.command_del {
+    background: url(../images/bg_dell.png) repeat-x scroll 0 0 transparent;
+    color: #FFFFFF;
+    height: 22px;
+    text-decoration: none;
+    width: 60px;
+    border: none;
+    font-size: 12px;
+    margin-left: -4px;
+}
+.submit {
+    background: url(../images/bg_enter.png) repeat-x scroll 0 0 transparent;
+    border: medium none;
+    color: #FFFFFF;
+    height: 22px;
+    width: 70px;
+    cursor: pointer;
+}
+.command_del:hover, .submit:hover, .link_to_main:hover, .command_edit:hover {
+    background-position: 0px -22px;
+}
+.command_del:active, .submit:active, .link_to_main:active, .command_edit:active {
+    background-position: 0px -44px;
+}
+.command {
+    width: 145px;
+}
+.command form{
+    float:left;
+}
+
+#navigation {
+    border: 1px solid #A0A0C0;
+    padding: 0px;
+    width: 100%;
+    border-spacing: 0px;
+}
+#main {
+    float: left;
+    width: 100%;
+    padding-bottom: 30px;
+}
+#navigation  td {
+    list-style-type: none;
+    min-width: 120px;
+    text-align: center;
+}
+#navigation  td a {
+    background: url(../images/bg_navigation.png) repeat-x scroll 0px 0px ;
+    padding: 5px 10px;
+    color: #606090;
+    display: block;
+    padding: 1px 0;
+    text-decoration: none;
+    background-color: #FFF;
+}
+#navigation  td a:hover {
+    color: #303060;
+    background-position: 0px -22px;
+}
+#navigation td a:active {
+    color: #fff;
+    background-position: 0px -44px;
+}
+#first_level {
+    font-weight: bold;
+    padding: 3px 0;
+}
+.even {
+    background-color: #F7F7FF;
+}
+.hidden{
+    display: none
+}
+select{
+    width: 163px;
+}
+.border {
+    border: 1px solid #C3C3E0;
+}
+#result1,#result2{
+    background-color: white;
+    border: 1px solid #C3C3E0;
+    width: 163px;
+}
+ #td_result1{
+    width: 26%;
+}
+#result2{
+/*    width: 163px;*/
+}
+.result_table td{
+    /*    width: 33%;*/
+}
+#ajax_loader{
+    margin-left: 97%;
+    background: url(../images/ajax-loader.gif);
+    z-index:10000;
+    width:16px;
+    height:16px;           
+}
